@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metro", "Metro.csproj", "{0C5D5090-39CD-43DE-A672-97C89F40B4C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C5D5090-39CD-43DE-A672-97C89F40B4C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C5D5090-39CD-43DE-A672-97C89F40B4C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C5D5090-39CD-43DE-A672-97C89F40B4C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C5D5090-39CD-43DE-A672-97C89F40B4C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7ED26ACA-E2FE-46FE-A253-E1DAA403F91B}
+	EndGlobalSection
+EndGlobal
