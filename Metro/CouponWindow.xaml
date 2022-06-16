@@ -5,8 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Metro"
         mc:Ignorable="d"
-        Title="CouponWindow" Height="450" Width="800">
+        Title="Проездной" Height="700" Width="400" WindowState="Normal" WindowStyle="ThreeDBorderWindow" Icon="/logo.png">
     <Grid>
-        
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Button Name="BalanceBtn" Grid.Column="1" Grid.Row="1" Content="Баланс" FontFamily="Bahnschrift SemiBold" FontSize="20" Click="BalanceBtn_Click"/>
+        <Button Click="CouponByeBtn_Click" Name="CouponByeBtn" Grid.Column="1" Grid.Row="3" Content="Купить проездной" FontFamily="Bahnschrift SemiBold" FontSize="20"/>
+        <Button Name="BackBtn" Grid.Column="1" Grid.Row="5" Content="Назад" FontFamily="Bahnschrift SemiBold" FontSize="20" Click="BackBtn_Click"/>
+
     </Grid>
 </Window>

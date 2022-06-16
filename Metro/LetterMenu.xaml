@@ -1,0 +1,32 @@
+﻿<Window x:Class="Metro.LetterMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Metro"
+        mc:Ignorable="d"
+        Title="Выберите опцию" Height="700" Width="400" WindowState="Normal" WindowStyle="ThreeDBorderWindow" Icon="/logo.png">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+
+        <Button Name="ComplaintBtn" Grid.Column="1" Grid.Row="1" Content="Жалоба" FontFamily="Bahnschrift SemiBold" FontSize="20" Click="ComplaintBtn_Click"/>
+        <Button Click="SuggestBtn_Click" Name="SuggestBtn" Grid.Column="1" Grid.Row="3" Content="Предложение" FontFamily="Bahnschrift SemiBold" FontSize="20"/>
+        <Button Name="BackBtn" Grid.Column="1" Grid.Row="5" Content="Назад" FontFamily="Bahnschrift SemiBold" FontSize="20" Click="BackBtn_Click"/>
+
+    </Grid>
+</Window>

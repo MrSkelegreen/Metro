@@ -9,7 +9,6 @@ namespace Metro
     internal class Context
     {
         public static MetroContext db = new MetroContext();
-        public static User userSession;
-        public static string userLogin;
+        public static User userSession;       
     }
 }

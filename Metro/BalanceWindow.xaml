@@ -1,0 +1,34 @@
+﻿<Window x:Class="Metro.BalanceWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Metro"
+        mc:Ignorable="d"
+        Title="Баланс" Height="700" Width="400" WindowState="Normal" WindowStyle="ThreeDBorderWindow" Icon="/logo.png">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="28"/>
+            <RowDefinition Height="29"/>
+            <RowDefinition Height="72"/>
+            <RowDefinition Height="116"/>
+            <RowDefinition Height="71"/>
+            <RowDefinition Height="37"/>
+            <RowDefinition Height="34"/>
+            <RowDefinition Height="55"/>
+            <RowDefinition Height="103"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Ваш баланс:" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" FontFamily="Bahnschrift SemiBold" FontSize="20"/>
+        <TextBlock Text="{Binding Balance, StringFormat = {}{0} рублей}" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" FontFamily="Bahnschrift SemiBold" FontSize="35"/>
+        <Button Click="CouponPayBtn_Click" Name="CouponPayBtn" Grid.Column="1" Grid.Row="4" Content="Пополнить" FontFamily="Bahnschrift SemiBold" FontSize="20"/>
+        <Button Name="BackBtn" Content="Назад" Grid.Column="1" Grid.Row="7" Click="BackBtn_Click" FontFamily="Bahnschrift SemiBold"/>
+    </Grid>
+</Window>

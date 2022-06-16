@@ -7,7 +7,22 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="BalanceWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="BuyTicket.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CouponBuyWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CouponPayWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="LetterMenu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="LetterWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Menu.xaml.cs">
@@ -18,7 +33,22 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="BalanceWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="BuyTicket.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CouponBuyWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CouponPayWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LetterMenu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LetterWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">

@@ -31,5 +31,17 @@ namespace Metro
             new BuyTicket().Show();
             this.Close();
         }
+
+        private void CouponBtn_Click(object sender, RoutedEventArgs e)
+        {
+            new CouponWindow().Show();
+            this.Close();
+        }
+
+        private void LetterBtn_Click(object sender, RoutedEventArgs e)
+        {
+            new LetterMenu().Show();
+            this.Close();
+        }
     }
 }

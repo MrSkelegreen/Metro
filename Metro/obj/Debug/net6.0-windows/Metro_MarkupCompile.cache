@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-Z:\УИФИС\MetroWPF\Metro\obj\Debug\net6.0-windows\
+N:\DZ\УИФИС\Metro-master\Metro\obj\Debug\net6.0-windows\
 Metro
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-Z:\УИФИС\MetroWPF\Metro\App.xaml
-4-524072974
+N:\DZ\УИФИС\Metro-master\Metro\App.xaml
+101336450071
 
-15-525565991
-214-80549444
-BuyTicket.xaml;MainWindow.xaml;Menu.xaml;Registration.xaml;
+211310023820
+2141394891036
+BalanceWindow.xaml;BuyTicket.xaml;CouponBuyWindow.xaml;CouponPayWindow.xaml;CouponWindow.xaml;LetterMenu.xaml;LetterWindow.xaml;MainWindow.xaml;Menu.xaml;Registration.xaml;
 
 False
 

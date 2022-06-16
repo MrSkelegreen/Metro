@@ -29,8 +29,7 @@ namespace Metro
         {
             User user = Context.db.Users.FirstOrDefault(q => q.Login == LoginBox.Text && q.Password == PasswordBox.Text);
             if (user != null)
-            {
-                Context.userLogin = user.Login;
+            {              
                 Context.userSession = user;
                 Context.db.SaveChanges();
                 new Menu().Show();

@@ -31,9 +31,9 @@
 
         <Button Name="TicketBtn" Grid.Column="1" Grid.Row="2" Content="Купить билет" FontFamily="Bahnschrift SemiBold" FontSize="36" FontWeight="Bold" Click="TicketBtn_Click"/>
 
-        <Button Name="CouponBtn" Grid.Column="1" Grid.Row="4" Content="Проездной" FontFamily="Bahnschrift SemiBold" FontSize="36" FontWeight="Bold"/>
+        <Button Name="CouponBtn" Grid.Column="1" Grid.Row="4" Content="Проездной" FontFamily="Bahnschrift SemiBold" FontSize="36" FontWeight="Bold" Click="CouponBtn_Click"/>
 
-        <Button Name="LetterBtn" Grid.Column="1" Grid.Row="6" Content="Жалобы и предложения" FontFamily="Bahnschrift SemiBold" FontSize="20" FontWeight="Bold"/>
+        <Button Name="LetterBtn" Click="LetterBtn_Click" Grid.Column="1" Grid.Row="6" Content="Жалобы и предложения" FontFamily="Bahnschrift SemiBold" FontSize="20" FontWeight="Bold"/>
 
     </Grid>
 </Window>
